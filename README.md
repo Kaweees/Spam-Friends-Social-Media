@@ -7,7 +7,7 @@ Once the downloaded file is unzipped, follow these instructions:
 
 ### Python Setup
 1. Install Python 3.x.
-2. Open cmd, termial, etc. and use the command `pip install `.
+2. Open cmd, termial, etc. and use the command `pip install fbchat`.
 
 ### Before running
 1. Edit main.py so that 
