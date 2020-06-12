@@ -9,10 +9,12 @@ Once the downloaded file is unzipped, follow these instructions:
 1. Install Python 3.x or latest version.
 2. Open cmd/termial/etc. and use the command `pip install fbchat`.
 
+
+## Running
 ### Before running
 1. Edit `main.py`
 2. Go to line 17
 3. Modify `stop` to the amount of lines from the Bee Movie (starting from the beginning) you want to be read
 
-### Running the Project
+### Instructions
 1. Run main.py (located at the project root).
