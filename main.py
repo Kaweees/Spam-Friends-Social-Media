@@ -14,7 +14,7 @@ for i in range(no_of_friends):
     friends = client.searchForUsers(name)  # return a   list of names 
     friend = friends[0] 
     #msg = str(input("Message: ")) 
-    stop = 20
+    stop = 20 #stop is the amount of lines of the Bee Movie that are sent to your Facebook friend
     L = []
     filepath = 'beemovie.txt'
     with open(filepath) as fp:
