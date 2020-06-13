@@ -28,7 +28,7 @@ for i in range(no_of_friends):
           print("Message sent successfully!")
     #msg = str(input("Message: ")) 
     #sent = client.sendMessage(msg,  thread_id=friend.uid)
-print("sent")
+print("task ended")
 #syntax
 #client.send(Message(text='<message>'), thread_id='<user id>', thread_type=ThreadType.USER)
 #client.send(Message(text='<message>'), thread_id='<group id>', thread_type=ThreadType.GROUP)
