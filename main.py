@@ -1,8 +1,4 @@
 # this one is for sending direct messages to friends
-#reqirements python 3.8+
-#facebook username, password, and friends lmao
-#pip install fbchat
-#run on personal computer, as it dosen't seem to work directly on Repl.it
 import fbchat 
 from getpass import getpass 
 
