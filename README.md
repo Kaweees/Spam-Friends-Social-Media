@@ -7,7 +7,7 @@ Once the downloaded file is extracted into a separate folder, follow these instr
 
 ### Python Setup
 1. Install Python 3.x or latest version.
-2. Open cmd/termial/etc. and use the command `pip install fbchat`.
+2. Open cmd/termial/etc. and use the command `pip install fbchat` (if `pip` isn't working, try [this](https://stackoverflow.com/questions/23708898/pip-is-not-recognized-as-an-internal-or-external-command).
 3. Documentation for `fbchat` could be found [here](https://fbchat.readthedocs.io)
 
 
