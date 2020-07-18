@@ -8,7 +8,7 @@ Once the downloaded file is extracted into a separate folder, follow these instr
 ### Python Setup
 1. Install Python 3.x or latest version.
 2. Open cmd/termial/etc.
-3. Use the command python `-m pip install --upgrade pip` to upgrade pip (if pip isn't working, try [this](https://stackoverflow.com/questions/23708898/pip-is-not-recognized-as-an-internal-or-external-command)).
+3. Use the command python `pip install --upgrade pip` to upgrade pip (if pip isn't working, try [this](https://stackoverflow.com/questions/23708898/pip-is-not-recognized-as-an-internal-or-external-command)).
 4. Use the command `pip install fbchat`.
 5. Documentation for `fbchat` could be found [here](https://fbchat.readthedocs.io)
 
