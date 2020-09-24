@@ -1,5 +1,6 @@
 # this one is for sending direct messages to friends
 import fbchat 
+from fbchat import ThreadType
 from getpass import getpass 
 
 def get_user_info_and_login():
@@ -38,11 +39,9 @@ def message_friend(client, friend):
         if sent: 
           print("Message sent successfully!")
 client = get_user_info_and_login()
-no_of_friends = get_interger("Number of friends: ")
+no_of_friends = get_interger("Number of group chats: ")
 for i in range(no_of_friends): 
-  name = str(input("Name: ")) 
-  friends = client.searchForUsers(name)  # return a list of names 
-  friend = friends[0] 
+  group_id = get_interger("Group chat id: ")
   # msg = str(input("Message: ")) 
   lines = get_interger("Number of Bee Movie lines you would like to send: ") # the amount of lines of the Bee Movie that are sent to your Facebook friend
   L = []
@@ -53,16 +52,10 @@ for i in range(no_of_friends):
     for i in range(0,lines):
       msg = L[i]
       try:
-        sent = client.sendMessage(msg,  thread_id=friend.uid)
+        sent = client.sendMessage(msg,  thread_id=group_id, thread_type=ThreadType.GROUP)
       except:
         print("Message sent unsuccessfully... ")
       else:
         if sent: 
           print("Message sent successfully!")
-    #message_friend(client, friend)
-  #msg = str(input("Message: ")) 
-  #sent = client.sendMessage(msg,  thread_id=friend.uid)
 print("task ended")
-#syntax
-#client.send(Message(text='<message>'), thread_id='<user id>', thread_type=ThreadType.USER)
-#client.send(Message(text='<message>'), thread_id='<group id>', thread_type=ThreadType.GROUP)

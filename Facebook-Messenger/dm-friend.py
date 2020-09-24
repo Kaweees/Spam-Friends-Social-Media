@@ -1,5 +1,6 @@
 # this one is for sending direct messages to friends
 import fbchat 
+from fbchat import ThreadType
 from getpass import getpass 
 
 def get_user_info_and_login():
@@ -10,6 +11,7 @@ def get_user_info_and_login():
   except:
     print('Login unsucessful, please try again. ')
     get_user_info_and_login()
+    return client
   return client
 
 def get_interger(string_params):
@@ -31,7 +33,6 @@ def message_friend(client, friend):
       msg = L[i]
       try:
         sent = client.sendMessage(msg,  thread_id=friend.uid)
-        print(sent)
       except:
         print("Message sent unsuccessfully... ")
       else:
@@ -53,7 +54,7 @@ for i in range(no_of_friends):
     for i in range(0,lines):
       msg = L[i]
       try:
-        sent = client.sendMessage(msg,  thread_id=friend.uid)
+        sent = client.sendMessage(msg,  thread_id=friend.uid, thread_type=ThreadType.USER)
       except:
         print("Message sent unsuccessfully... ")
       else:
