@@ -1,5 +1,5 @@
 # Spam-Friend's-Social-Media
-Python script that is supposed to read a selected number of lines of the Bee Movie's script from a ".txt" file and direct message those lines to friend or group chat on cerain social medias.
+Python script that is supposed to read a selected number of lines of the Bee Movie's script from a ".txt" file and direct message those lines to friend or group chat on certain social medias.
 
 ## Installation Instructions
 You can download or modify the program by Cloning or Downloading the project or by saving it as a ".zip" file.
