@@ -1,4 +1,4 @@
-# Troll-FB-friends
+# Spam-Friend's-Social-Media
 Python script that is supposed to read a selected number of lines of the Bee Movie's script.
 
 ## Installation Instructions
