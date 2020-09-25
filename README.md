@@ -13,11 +13,11 @@ Once the downloaded file is extracted into a separate folder, follow these instr
 5. Support for other platforms coming soon
 
 ## Running
-### Before running
-1. Edit `main.py`
-2. Go to line 17
-3. Modify `stop` to the amount of lines from the Bee Movie (starting from the beginning) you want to be read
 
-### Instructions
-1. Run main.py (located at the project root).
-#### Facebook Messenger
+### Facebook Messenger
+1. If direct messaging (dming) just friends, have the name the of friend on Facbook ready.
+2. Run `dm-friend.py` located at `/Facebook-Messenger/dm-friend.py`
+3. Login and input the name of the friend when prompted.
+1. If direct messaging a group chat, find the group chat ID by logging into to fabebook messenger on a computer and copying part of the URL as shown.
+2. Run `dm-friend.py` located at `/Facebook-Messenger/dm-group_chat.py`
+3. Login and input the Group Chat when prompted.
