@@ -15,10 +15,14 @@ Once the downloaded file is extracted into a separate folder, follow these instr
 ## Running
 
 ### Facebook Messenger
-1. If direct messaging (dming) just friends, have the name the of friend on Facbook ready.
-2. Run `dm-friend.py` located at `/Facebook-Messenger/dm-friend.py`
-3. Login and input the name of the friend when prompted.
-1. If direct messaging a group chat, find the group chat ID by logging into to fabebook messenger on a computer and copying part of the URL as shown below.
-![GC ID Image](/assets/img/GC-ID.PNG)
-2. Run `dm-friend.py` located at `/Facebook-Messenger/dm-group_chat.py`
-3. Login and input the Group Chat when prompted.
+<ol start="1">
+  <li>If direct messaging (dming) just friends, have the name the of friend on Facbook ready.</li>
+  <li>Run `dm-friend.py` located at `/Facebook-Messenger/dm-friend.py`</li>
+  <li>Login and input the name of the friend when prompted.</li>
+</ol>
+<ol start="1">
+  <li>If direct messaging (dming) just friends, have the name the of friend on Facbook ready.</li>
+  ![GC ID Image](/assets/img/GC-ID.PNG)
+  <li>Run `dm-friend.py` located at `/Facebook-Messenger/dm-group_chat.py`</li>
+  <li>Login and input the Group Chat when prompted.</li>
+</ol
