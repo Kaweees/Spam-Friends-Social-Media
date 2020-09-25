@@ -26,5 +26,6 @@ Once the downloaded file is extracted into a separate folder, follow these instr
   <li>Run `dm-friend.py` located at `/Facebook-Messenger/dm-group_chat.py`</li>
   <li>Login and input the Group Chat when prompted.</li>
 </ol>
+
 ### Instagram
 1. Support for Instagram coming soon.
