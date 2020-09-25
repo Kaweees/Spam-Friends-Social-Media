@@ -9,9 +9,8 @@ Once the downloaded file is extracted into a separate folder, follow these instr
 1. Install Python 3.x or latest version.
 2. Open cmd/termial/etc.
 3. Use the command python `python -m pip install --upgrade pip` to upgrade pip (if pip isn't working, try [this](https://stackoverflow.com/questions/23708898/pip-is-not-recognized-as-an-internal-or-external-command)).
-4. Use the command `pip install fbchat`.
-  4a. Documentation for `fbchat` could be found [here](https://fbchat.readthedocs.io)
-
+4. Use the command `pip install fbchat` for Facebook Messenger. Documentation for `fbchat` could be found [here](https://fbchat.readthedocs.io)
+5. Support for other platforms coming soon
 
 ## Running
 ### Before running
@@ -21,3 +20,4 @@ Once the downloaded file is extracted into a separate folder, follow these instr
 
 ### Instructions
 1. Run main.py (located at the project root).
+#### Facebook Messenger
