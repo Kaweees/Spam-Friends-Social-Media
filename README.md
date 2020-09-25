@@ -22,8 +22,9 @@ Once the downloaded file is extracted into a separate folder, follow these instr
 </ol>
 <ol start="1">
   <li>If direct messaging (dming) just friends, have the name the of friend on Facbook ready.</li>
-  <img>![GC ID Image]()
   <img src="/assets/img/GC-ID.PNG" alt="GC ID Image"/>
   <li>Run `dm-friend.py` located at `/Facebook-Messenger/dm-group_chat.py`</li>
   <li>Login and input the Group Chat when prompted.</li>
-</ol
+</ol>
+### Instagram
+1. Support for Instagram coming soon.
